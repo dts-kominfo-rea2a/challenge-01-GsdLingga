@@ -105,10 +105,10 @@ const firstUser = {
   gender: "Female",
   age: 17,
   email: "monica@dingdong.com",
-  favoriteColor: firstFavoriteColor,
+  favoriteColor: [...firstFavoriteColor],
   isHavePet: "Yes",
   education: firstEducation,
-  favoriteRestaurant: firstFavoriteRestaurant,
+  favoriteRestaurant: [...firstFavoriteRestaurant],
 };
 
 const secondUser = {
@@ -116,10 +116,10 @@ const secondUser = {
   gender: "Male",
   age: 23,
   email: "wendy@dingdong.com",
-  favoriteColor: secondFavoriteColor,
+  favoriteColor: [...secondFavoriteColor],
   isHavePet: "No",
   education: secondEducation,
-  favoriteRestaurant: secondFavoriteRestaurant,
+  favoriteRestaurant: [...secondFavoriteRestaurant],
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
