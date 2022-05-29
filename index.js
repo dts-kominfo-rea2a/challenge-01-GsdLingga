@@ -12,7 +12,7 @@ firstFavoriteColor.add("Pink");
 firstFavoriteColor.add("White");
 firstFavoriteColor.add("Purple");
 
-//Menambahkan data favoriteColor untuk secondtUser
+//Menambahkan data favoriteColor untuk secondUser
 secondFavoriteColor.add("Blue");
 secondFavoriteColor.add("Black");
 secondFavoriteColor.add("Grey");
@@ -43,7 +43,7 @@ firstSeniorHighSchool.name = "SMA 03";
 firstSeniorHighSchool.city = "Tangerang";
 firstEducation.push(firstSeniorHighSchool);
 
-//inisialisasi objek education dari SD sampai Perguruan Tinggiuntuk secondUser
+//inisialisasi objek education dari SD sampai Perguruan Tinggi untuk secondUser
 const secondElementarySchool = new Object();
 const secondJuniorHighSchool = new Object();
 const secondSeniorHighSchool = new Object();
@@ -72,13 +72,11 @@ secondUniversity.name = "Universitas Maju";
 secondUniversity.city = "Tangerang";
 secondEducation.push(secondUniversity);
 
-// console.log(firstEducation);
-// console.log(secondEducation);
-
 //inisialisasi Set untuk favoriteRestaurant
 const firstFavoriteRestaurant = new Set();
 const secondFavoriteRestaurant = new Set();
 
+//Menambahkan data favoriteRestaurant untuk firstUser
 firstFavoriteRestaurant.add("Bento");
 firstFavoriteRestaurant.add("Sushi");
 firstFavoriteRestaurant.add("Pancake");
@@ -91,8 +89,7 @@ firstFavoriteRestaurant.add("Tteok");
 firstFavoriteRestaurant.add("Sushi");
 firstFavoriteRestaurant.add("Sushi");
 
-// console.log(firstFavoriteRestaurant);
-
+//Menambahkan data favoriteRestaurant untuk secondUser
 secondFavoriteRestaurant.add("Tempura");
 secondFavoriteRestaurant.add("Bento");
 secondFavoriteRestaurant.add("Sushi");
@@ -102,8 +99,6 @@ secondFavoriteRestaurant.add("Katsu");
 secondFavoriteRestaurant.add("Geprek");
 secondFavoriteRestaurant.add("Pancake");
 secondFavoriteRestaurant.add("Eggy");
-
-// console.log(secondFavoriteRestaurant);
 
 const firstUser = {
   name: "Monica",
@@ -115,6 +110,7 @@ const firstUser = {
   education: firstEducation,
   favoriteRestaurant: firstFavoriteRestaurant,
 };
+
 const secondUser = {
   name: "Wendy",
   gender: "Male",
